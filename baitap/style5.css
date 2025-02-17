@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.container{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    color: rgb(237, 5, 213);
+    text-align: center;
+    padding-top: 30px;
+    width: 250px;
+    height: 60px;
+    background-color: rgb(12, 239, 57);
+    margin: 10px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    transition: all 0.5s;
+    flex-shrink: 1;
+}

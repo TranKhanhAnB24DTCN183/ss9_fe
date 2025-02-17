@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.container .child{
+    text-align: center;
+    background-color: hotpink;
+    border: 10px solid rgb(243, 223, 223);
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 150px;  
+}
